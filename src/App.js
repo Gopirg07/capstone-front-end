@@ -10,7 +10,7 @@ import Forget from "./Components/Forget";
 import ResetPassword from "./Components/ResetPassword";
 import Activation from "./Components/Activation";     
 
-export const url="http://localhost:8000" 
+export const url="https://capstone-fitnessloggerr.onrender.com" 
 
 function App() {
   return (
