@@ -56,7 +56,7 @@ export default function ForgotPassword() {
 
             <p className="forget-p"> A Link Has Been Sent To Your Mail Id To Reset Your Password ! </p> 
             <Button variant="contained" type="submit">
-              Submit
+              Continue
             </Button> 
           </Form>
         ) : (
