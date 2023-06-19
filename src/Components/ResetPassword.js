@@ -49,8 +49,7 @@ export default function ResetPassword() {
   };
 
   return (
-    <div className="login-main">
-      <div className="formm-outer">
+    <div className="login-main"> 
         <Form
           className="outer-div shadow-lg p-3 mb-5 bg-white rounded"
           onSubmit={handleSubmit}
@@ -108,8 +107,7 @@ export default function ResetPassword() {
             <Button variant="contained" type="submit">
             Login
           </Button>
-        </Form>
-      </div>
+        </Form> 
     </div>
   );
 }

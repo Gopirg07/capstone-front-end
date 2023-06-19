@@ -45,8 +45,7 @@ export default function ForgotPassword() {
   };
 
   return (
-    <div className="login-main">
-      <div className="formm-outer">
+    <div className="login-main"> 
         {show ? (
           <Form
             className="forget-done-outer-div shadow-lg p-3 mb-5 bg-white rounded"
@@ -101,10 +100,9 @@ export default function ForgotPassword() {
                   Already Have A Account? Login.{" "}
                 </Link>
               </div>
-            </div>
+            </div> 
           </Form>
-        )}
-      </div>
+        )} 
     </div>
   );
 }

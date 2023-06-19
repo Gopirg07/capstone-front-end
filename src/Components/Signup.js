@@ -51,8 +51,7 @@ export default function Signup() {
 
     }
   return (
-    <div className="login-main">
-      <div>
+    <div className="login-main"> 
         {sent?<form
           className="outer-div shadow-lg p-3 bg-white rounded"
           onSubmit={handleSubmit}
@@ -119,7 +118,6 @@ export default function Signup() {
             <Link to="/forget">Forget Password</Link>
           </div>
         </form>}
-      </div>
-    </div>
+      </div> 
   );
 }

@@ -50,8 +50,7 @@ export default function Signin() {
 
   const [show, setShow] = useState(false);
   return (
-    <div className="login-main">
-      <div>
+    <div className="login-main"> 
         <form
           className="outer-div shadow-lg p-3 bg-white rounded"
           onSubmit={handleSubmit}
@@ -96,7 +95,6 @@ export default function Signin() {
             <Link to="/signup">Create A New Account</Link>
           </div>
         </form>
-      </div>
-    </div>
+      </div> 
   );
 }
