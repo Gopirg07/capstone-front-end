@@ -11,11 +11,11 @@
   align-items: center;
 } 
 
-.outer-div {
-  width: 600px;
+.outer-div { 
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  width: 600px
 }
 
 .forget-done-outer-div {
@@ -75,6 +75,9 @@
 @media only screen and (max-width: 576px) { 
   .main-outer{
     width: 90%;
+  }
+  .outer-div{
+    width: 250px;
   }
   }
 
