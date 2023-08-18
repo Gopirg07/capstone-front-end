@@ -14,7 +14,7 @@ export default function NavbarComp() {
   return (
     <Navbar collapseOnSelect fixed="top" expand="lg" style={{backgroundColor:"white" ,borderBottom:"1px solid #bbbbbb"}} variant="light">
     <Container> 
-      <Navbar.Brand onClick={()=>navigate("/home")}> <Button> <h1> Fitness Tracker </h1> </Button> </Navbar.Brand>
+      <Navbar.Brand onClick={()=>navigate("/home")}> <Button style={{color:"black"}}> <h1> Fitness Tracker </h1> </Button> </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="justify-content-end align-items-end flex-grow-1 pe-3">
